@@ -1,0 +1,10 @@
+.next
+out
+build
+.next-env.d.ts
+node_modules
+.eslintcache
+.git
+.kilo
+.bak-current-site
+scripts
