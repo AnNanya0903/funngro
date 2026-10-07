@@ -31,7 +31,7 @@ The existing FAQ stated teens aged 13-19 could join. This was **not confirmed** 
 
 ```
 NEXT_PUBLIC_SITE_URL=https://funngro-gilt.vercel.app
-RESEND_API_KEY=<RESEND_API_KEY-removed>
+RESEND_API_KEY=<set-in-.env.local-only>
 RESEND_FROM=Funngro <hello@funngro.com>
 ```
 
