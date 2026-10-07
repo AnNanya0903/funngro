@@ -8,6 +8,7 @@ import { SkipLink } from "@/components/layout/SkipLink";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationSchema, websiteSchema } from "@/lib/seo";
 import { BackToTop } from "@/components/BackToTop";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -74,6 +75,7 @@ export default function RootLayout({
         <BackToTop />
         <JsonLd data={organizationSchema()} />
         <JsonLd data={websiteSchema()} />
+        <Analytics />
       </body>
     </html>
   );
